@@ -1,0 +1,23 @@
+.button {
+    background: #325DFF;
+    border-radius: 30px;
+    box-shadow: -1px 0px 38px -10px #E0FFFF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    word-spacing: 0.3rem;
+  }
+  .button:hover {
+    background-color: silver;
+    box-shadow: silver;
+    color: #fff;
+    transform: translateY(-7px);
+  }

@@ -1,0 +1,152 @@
+@import url('reset.css');
+@import url('button.css');
+@import url('responsive.css');
+@import url('text.css');
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* nav */
+
+nav {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+
+}
+
+.row { 
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+}
+
+.background {
+    width: 100%;
+    background: url(img/tlo.png) no-repeat;
+    background-position: top;
+    background-position: 100% 100%;
+    background-size: cover;
+    position: relative;
+    top: 0rem;
+  }
+
+.transparent {
+    width: 100%;
+    background-color: rgba(0, 0, 253, 0.22);
+    background-size: cover;
+
+}
+
+.transparent2 {
+    width: 100%;
+    background-color:rgba(21, 117, 185, 0.007);
+    background-size: cover;
+
+}
+
+/* nav */
+
+
+/* pierwszy row */
+
+  .one {
+      width: 100%;
+  }
+
+  .pictrue {
+      background-image: url(img/image.png);
+      background-size: cover;
+      min-height: 250px;
+  }
+
+  .pictrue2 {
+    background-image: url(img/Rectangle\ 10.png);
+    background-size: cover;
+    min-height: 250px;
+
+}
+
+.pictrue3 {
+    background-image: url(img/Rectangle\ 11.png);
+    background-size: cover;
+    min-height: 250px;
+
+}
+
+.pictrue4 {
+    background-image: url(img/Rectangle\ 14.png);
+    background-size: cover;
+    min-height: 250px;
+
+}
+
+
+  /* pierwszy row */
+
+
+  /* box */  
+  .box {
+      background-color: #FAFAFA;
+      z-index: 100;
+      position: relative;
+  }
+  
+  .box__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      
+  }
+
+  
+  /* box */
+
+  /* video */
+.transparent2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.mer {
+    width: 100%;
+    background: url(img/mer.png) no-repeat;
+    background-position: top;
+    background-position: 100% 100%;
+    background-size: cover;
+    position: relative;
+    top: 0rem;
+}
+
+.mer img {
+    padding-top: 0rem;
+}
+
+    /* video */
+
+
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+
+
+    footer {
+        background-color: #325DFF;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
